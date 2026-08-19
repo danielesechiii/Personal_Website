@@ -9,7 +9,7 @@
   --colore-secondario: black;
   --colore-frame: #f0f0f0;
   --bordo-frame: 10px solid black;
-  --bordo-item-frame: 2px solid #e6dddd;
+  --bordo-item-frame: 2px solid lightgrey;
   --bordo-button: 3px solid black;
   --shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgb(0 0 0 / 20%);
 }
@@ -99,8 +99,8 @@ blockquote {
   border: var(--bordo-item-frame);
   border-radius: 50px;
   background-color: var(--colore-primario);
-  padding: 0.5rem;
-  margin: 0.5rem;
+  padding: 0.2rem;
+  box-shadow: var(--shadow);
 }
 
 /* VARIANTI DI STILI */
@@ -135,4 +135,12 @@ blockquote {
 
 .site-footer #diritti {
   margin-top: 2rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
 }
