@@ -9,6 +9,7 @@
   --colore-secondario: black;
   --colore-frame: #f0f0f0;
   --bordo-frame: 10px solid black;
+  --bordo-item-frame: 2px solid #e6dddd;
   --bordo-button: 3px solid black;
   --shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgb(0 0 0 / 20%);
 }
@@ -92,6 +93,14 @@ blockquote {
 
 #autore {
   font-weight: 600;
+}
+
+.item-frame {
+  border: var(--bordo-item-frame);
+  border-radius: 50px;
+  background-color: var(--colore-primario);
+  padding: 0.5rem;
+  margin: 0.5rem;
 }
 
 /* VARIANTI DI STILI */

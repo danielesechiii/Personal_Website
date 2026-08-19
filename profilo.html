@@ -1,82 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniele Sechi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Daniele Sechi</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <!-- CONTENITORE PAGINA -->
 
-<body>
+    <div class="site-shell">
+      <!-- HEADER -->
 
-  <!-- CONTENITORE PAGINA -->
-
-  <div class="site-shell">
-
-    <!-- HEADER -->
-     
-    <header class="site-header">
-
-      <nav class="site-nav">
+      <header class="site-header">
+        <nav class="site-nav">
           <button><a href="/profilo.html">Profilo</a></button>
           <button><a href="/portfolio.html">Portfolio</a></button>
           <button><a href="/blog.html">Blog</a></button>
-      </nav>
+        </nav>
+      </header>
 
-    </header>
+      <!-- CONTENUTO PRINCIPALE -->
 
-    <!-- CONTENUTO PRINCIPALE -->
+      <main id="main-content">
+        <!-- SEZIONE PROFILO -->
 
-    <main id="main-content">
+        <section id="profilo">
+          <div class="section-heading">
+            <h1 class="title">CHI SONO</h1>
+          </div>
 
-      <!-- SEZIONE PROFILO -->
+          <div class="frame">
+            <p>
+              Mi chiamo Daniele Sechi, sono uno studente di ingegneria
+              informatica al Politecnico di Torino. <br />
+              Sono appassionato di tecnologia, finanza e imprenditorialità.
+            </p>
+          </div>
 
-      <section id="profilo">
+          <blockquote class="quote">
+            <q>
+              Il computer non è una macchina intelligente che aiuta le persone
+              stupide, anzi è una macchina stupida che funziona solo nelle mani
+              delle persone intelligenti.
+            </q>
+            <p id="autore">- Umberto Eco</p>
+          </blockquote>
 
-        <div class="section-heading">
-          <h1 class="title">CHI SONO</h1>
-        </div>
+          <hr />
 
-        <div class="frame">
-          <p>
-            Mi chiamo Daniele Sechi, sono uno studente di ingegneria informatica al Politecnico di Torino. <br>
-            Sono appassionato di tecnologia, finanza e imprenditorialità.
-          </p>
-        </div>
+          <!-- FOOTER -->
 
-        <blockquote class="quote">
-          <q>Il computer non è una macchina intelligente che aiuta le persone stupide, anzi è una macchina stupida che funziona solo nelle mani delle persone intelligenti.</q>
-          <p id="autore">- Umberto Eco</p>
-        </blockquote>
-        
-        <hr>
+          <footer class="site-footer">
+            <!-- CONTATTI -->
 
-        <!-- FOOTER -->
-        
-        <footer class="site-footer">
+            <h2 class="subtitle">CONTATTI</h2>
 
-          <!-- CONTATTI -->
+            <address class="contatti">
+              <img
+                src="/Assets/Icons/mail.svg"
+                alt="Mail-Icon"
+                class="icon"
+              /><a href="mailto:danielesechi.dev@gmail.com"
+                ><p>danielesechi.dev@gmail.com</p></a
+              >
+              <br />
+              <img
+                src="/Assets/Icons/github-icon.svg"
+                alt="GitHub-Icon"
+                class="icon"
+              /><a href="https://github.com/danielesechiii" target="_blank"
+                ><p>https://github.com/danielesechiii</p></a
+              >
+            </address>
 
-          <h2 class="subtitle">CONTATTI</h2>
+            <p id="diritti">
+              &copy; 2026 Daniele Sechi. Tutti i diritti riservati.
+            </p>
+          </footer>
+        </section>
+      </main>
+    </div>
 
-          <address class="contatti">
-            <img src="/Assets/Icons/mail.svg" alt="Mail-Icon" class="icon"><a href="mailto:danielesechi.dev@gmail.com"><p>danielesechi.dev@gmail.com</p></a> <br>
-            <img src="/Assets/Icons/github-icon.svg" alt="GitHub-Icon" class="icon"><a href="https://github.com/danielesechiii" target="_blank"><p>https://github.com/danielesechiii</p></a>
-          </address>
-          
-          <p id="diritti">&copy; 2026 Daniele Sechi. Tutti i diritti riservati.</p>
-
-        </footer>
-
-      </section>
-
-    </main>
-
-  </div>
-
-  <script src="script.js"></script>
-
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
