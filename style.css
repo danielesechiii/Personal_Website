@@ -1,13 +1,15 @@
 /* VARIABILI */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --font1: "Roboto Mono", monospace;
   --font2: "Arial", sans-serif;
-  --colore-primario: white;
+  --font3: "Monserrat", sans-serif;
+  --colore-primario: #FFF7F2;
   --colore-secondario: black;
-  --colore-frame: #FCF5F2;
+  --colore-frame: #F7F0E1;
   --bordo-frame: 5px solid black;
   --bordo-item-frame: 3px solid lightgrey;
   --bordo-button: 3px solid black;
@@ -24,22 +26,28 @@
 
 /* STILI GENERALI */
 
+/* BODY */
+
+body {
+  background-color: var(--colore-primario);
+}
+
 /* TESTI */
 
 .title {
-  font-family: var(--font2);
+  font-family: var(--font1);
   font-size: 3rem;
   font-weight: 700;
 }
 
 .subtitle {
-  font-family: var(--font2);
+  font-family: var(--font1);
   font-size: 1.3rem;
   font-weight: 600;
 }
 
 p {
-  font-family: var(--font2);
+  font-family: var(--font1);
   font-size: 1rem;
   font-weight: 500;
 }
@@ -52,6 +60,7 @@ p {
   text-decoration: none;
   border-radius: 50px;
   color: var(--colore-secondario);
+  background-color: var(--colore-primario);
   min-width: 6.5rem;
   height: 2rem;
   border: var(--bordo-button);
