@@ -7,9 +7,9 @@
   --font2: "Arial", sans-serif;
   --colore-primario: white;
   --colore-secondario: black;
-  --colore-frame: #f0f0f0;
-  --bordo-frame: 10px solid black;
-  --bordo-item-frame: 2px solid lightgrey;
+  --colore-frame: #FCF5F2;
+  --bordo-frame: 5px solid black;
+  --bordo-item-frame: 3px solid lightgrey;
   --bordo-button: 3px solid black;
   --shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgb(0 0 0 / 20%);
 }
@@ -23,6 +23,8 @@
 }
 
 /* STILI GENERALI */
+
+/* TESTI */
 
 .title {
   font-family: var(--font2);
@@ -42,25 +44,27 @@ p {
   font-weight: 500;
 }
 
-button {
-  background-color: var(--colore-primario);
-  color: var(--colore-secondario);
-  border: var(--bordo-button);
+/* BUTTONS */
+
+.nav-button {
+  font-family: var(--font1);
+  font-size: 1rem;
+  text-decoration: none;
   border-radius: 50px;
-  padding: 0.3em;
-  min-width: 5rem;
+  color: var(--colore-secondario);
+  min-width: 6.5rem;
+  height: 2rem;
+  border: var(--bordo-button);
 }
 
-a {
-  font-family: var(--font1);
-  text-decoration: none;
-  color: var(--colore-secondario);
-}
+/* IMMAGINI E ICONE */
 
 .icon {
   width: 2%;
   height: 2%;
 }
+
+/* CONTATTI */
 
 address {
   font-family: var(--font1);
@@ -68,6 +72,13 @@ address {
   font-weight: 400;
   color: var(--colore-secondario);
 }
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+/* FRAME */
 
 .frame {
   border: var(--bordo-frame);
@@ -78,13 +89,24 @@ address {
   box-shadow: var(--shadow);
 }
 
-hr {
-  height: 0.2rem;
-  margin-top: 2rem;
-  background-color: var(--colore-frame);
+.item-frame {
+  border: var(--bordo-item-frame);
   border-radius: 50px;
-  border: var(--colore-frame);
+  background-color: var(--colore-primario);
+  padding: 0.3rem;
+  box-shadow: var(--shadow-item);
 }
+
+/* SEPARATORE */
+
+hr {
+  height: 0.25rem;
+  margin-top: 2rem;
+  background-color: black;
+  border-radius: 50px;
+}
+
+/* CITAZIONI */
 
 blockquote {
   margin-top: 2rem;
@@ -95,17 +117,20 @@ blockquote {
   font-weight: 600;
 }
 
-.item-frame {
-  border: var(--bordo-item-frame);
-  border-radius: 50px;
-  background-color: var(--colore-primario);
-  padding: 0.2rem;
-  box-shadow: var(--shadow);
-}
 
 /* VARIANTI DI STILI */
 
+/* NAV BUTTONS */
+
+.nav-button:hover {
+  color: var(--colore-primario);
+  background-color: var(--colore-secondario);
+  transform: scale(1.05);
+}
+
 /* LAYOUT */
+
+/* LAYOUT GENERALE */
 
 .site-shell {
   display: flex;
@@ -113,29 +138,47 @@ blockquote {
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
+  text-align: center;
 }
 
-.title {
+/* LAYOUT NAV */
+
+.site-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
   text-align: center;
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* LAYOUT TITOLI */
+
+.title {
   margin-top: 2rem;
 }
   
 .subtitle {
-  text-align: center;
   margin-top: 2rem;
-}
-
-.site-footer {
-  text-align: center;
 }
 
 .contatti {
   margin-top: 1rem;
 }
 
+/* LAYOUT FOOTER */
+
 .site-footer #diritti {
   margin-top: 2rem;
 }
+
+/* LAYOUT SKILLS */
 
 .skills {
   display: flex;
