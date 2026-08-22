@@ -52,6 +52,11 @@ p {
   font-weight: 500;
 }
 
+.frame-title {
+  font-family: var(--font1);
+  font-weight: 650;
+}
+
 /* BUTTONS */
 
 .nav-button {
@@ -84,10 +89,11 @@ address {
 
 a {
   text-decoration: none;
+  font-family: var(--font3);
   color: grey;
 }
 
-/* FRAME */
+/* FRAME E CARD */
 
 .frame {
   border: var(--bordo-frame);
@@ -103,6 +109,17 @@ a {
   border-radius: 50px;
   background-color: var(--colore-primario);
   padding: 0.3rem;
+}
+
+.card {
+  height: 10rem;
+  width: 20rem;
+  border: var(--bordo-frame);
+  border-radius: 50px;
+  background-color: var(--colore-frame);
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: var(--shadow);
 }
 
 /* SEPARATORE */
@@ -174,16 +191,35 @@ blockquote {
   
 .subtitle {
   margin-top: 2rem;
-}
-
-.contatti {
-  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* LAYOUT FOOTER */
 
+.contatti {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .site-footer #diritti {
   margin-top: 2rem;
+}
+
+/* LAYOUT PROGETTI */
+
+.progetti {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
 }
 
 /* LAYOUT SKILLS */
