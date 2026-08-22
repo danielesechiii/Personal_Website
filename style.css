@@ -103,7 +103,6 @@ a {
   border-radius: 50px;
   background-color: var(--colore-primario);
   padding: 0.3rem;
-  box-shadow: var(--shadow-item);
 }
 
 /* SEPARATORE */
