@@ -42,8 +42,8 @@ body {
 
 .subtitle {
   font-family: var(--font1);
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 p {
