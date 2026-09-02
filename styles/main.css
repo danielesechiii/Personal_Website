@@ -80,8 +80,8 @@ p {
 /* IMMAGINI E ICONE */
 
 .icon {
-  width: 2%;
-  height: 2%;
+  width: 2rem;
+  height: 2rem;
 }
 
 /* CONTATTI */
@@ -171,6 +171,8 @@ blockquote {
   justify-content: center;
   margin-top: 2rem;
   text-align: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 /* LAYOUT HEADER */

@@ -1,0 +1,27 @@
+/* MEDIA QUERIES */
+
+/* 1. SMARTPHONE IN ORIZZONTALE / TABLET VERTICALI (max-width: 768px) */
+
+@media screen and (max-width: 768px) {
+
+    #diritti {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        transform: none;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+}
+
+/* 3. SMARTPHONE IN VERTICALE (max-width: 480px) */
+
+@media screen and (max-width: 480px) {
+
+    .site-nav {
+        flex-wrap: wrap;
+        gap: 0.8rem;
+    }
+
+}
