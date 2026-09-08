@@ -1,0 +1,10 @@
+[
+  {
+    "id": "l-anno-sabbatico",
+    "title": "L’ANNO SABBATICO",
+    "date": "29 Agosto 2026",
+    "category": "Riflessioni",
+    "cover": "assets/covers/anno-sabbatico.jpg",
+    "content": "data/posts/anno-sabbatico.md"
+  }
+]
