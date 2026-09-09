@@ -1,4 +1,4 @@
-/* VARIABILI GLOBALI */
+/* RICERCA ARTICOLI */
 
 
 
