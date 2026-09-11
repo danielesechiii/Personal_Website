@@ -24,6 +24,6 @@ The project is organized into five logical layers:
 ### Data flow (blog)
 
 ```
-posts.json  ──→  preview-loader.js  ──→  generates card previews
-post.md     ──→  article-render.js    ──→  fetch() + MDparser.js  ──→  renders full article
+posts.json  ──>  preview-loader.js  ──>  generates card previews
+post.md     ──>  article-render.js    ──>  fetch() + MDparser.js  ──>  renders full article
 ```
