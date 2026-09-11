@@ -148,6 +148,34 @@ blockquote {
   font-weight: 600;
 }
 
+/* BLOG STYLES */
+
+/* ARTICLES PREVIEW */
+
+.preview {
+    background-color: var(--colore-frame);
+    border: var(--bordo-frame);
+    box-shadow: var(--shadow);
+    font-family: var(--font2);
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.preview img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* ARTICLE PAGE */
+
+#article-shell {
+    font-family: var(--font3);
+    font-size: 1rem;
+}
+
 
 /* VARIANTI DI STILI */
 
@@ -249,4 +277,19 @@ blockquote {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.2rem;
+}
+
+/* LAYOUT BLOG */
+
+#preview-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+#article-shell {
+  margin: 3rem 3em;
 }

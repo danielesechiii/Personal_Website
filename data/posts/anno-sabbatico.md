@@ -11,7 +11,8 @@ Come molti pensano, un anno sabbatico è una perdita di tempo - o meglio, può e
 - **84% dei partecipanti** ritiene che abbia sviluppato competenze utili per la carriera
 - **66% dei partecipanti** ha affrontato gli studi più seriamente dopo il gap year
 
-https://www.gapyearassociation.org/
+[https://www.gapyearassociation.org/](https://www.gapyearassociation.org/)
+
 
 ## PERCHÉ PRENDERSI UN ANNO SABBATICO? LA MIA ESPERIENZA
 

@@ -19,11 +19,12 @@ function parseMD(text) {
   const img = /!\[(.+?)\]\((.+?)\)/gm;
   const link = /\[(.+?)\]\((.+?)\)/gm;
   const quote = /^> (.+?)$/gm;
-  const paragraphs = /^(?!<|\s*)(.+)$/gm;
   const orderedListEl = /^\d+\.\s(.+?)$/gm;
   const unorderedListEl = /^-\s(.+?)$/gm;
   const olBlock = /<\/ol>\n<ol>/gm;
   const ulBlock = /<\/ul>\n<ul>/gm;
+  const newLine = /\n/gm;
+  const paragraphs = /^(?!<|\s*)(.+)$/gm;
 
   let lines = text.split('\n');
   
@@ -43,11 +44,11 @@ function parseMD(text) {
     line = line.replace(quote, '<blockquote>$1</blockquote>');
     line = line.replace(orderedListEl, '<ol><li>$1</li></ol>');
     line = line.replace(unorderedListEl, '<ul><li>$1</li></ul>');
-    line = line.replace(paragraphs, '<p>$1</p>');
+    line = line.replace(newLine, '<br />');
     
     return line;
     
-  }).join('\n');
+  }).join('<br />');
 
   html = html.replace(olBlock, '\n');
   html = html.replace(ulBlock, '\n');
