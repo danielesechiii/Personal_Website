@@ -1,4 +1,4 @@
-# Sito Personale — Daniele Sechi
+# Personal Website — Daniele Sechi
 
 Static personal website built with vanilla HTML, CSS and JavaScript. Serves as both a portfolio showcase and a blog platform with client-side Markdown rendering.
 
