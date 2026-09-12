@@ -21,8 +21,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     articleHTML.innerHTML = parseMD(articleContent);
 
-    console.log(articleHTML);
-
 });
 
 
