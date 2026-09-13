@@ -14,6 +14,9 @@ Come molti pensano, un anno sabbatico è una perdita di tempo - o meglio, può e
 [https://www.gapyearassociation.org/](https://www.gapyearassociation.org/)
 
 
+---
+
+
 ## PERCHÉ PRENDERSI UN ANNO SABBATICO? LA MIA ESPERIENZA
 
 - **Aiuta a conoscere se stessi e il mondo**
