@@ -24,6 +24,7 @@ function parseMD(text) {
   const olBlock = /<\/ol>\n<ol>/gm;
   const ulBlock = /<\/ul>\n<ul>/gm;
   const newLine = /\n/gm;
+  const separators = /---/gm;
   const paragraphs = /^(?!<|\s*)(.+)$/gm;
 
   let lines = text.split('\n');
@@ -44,6 +45,7 @@ function parseMD(text) {
     line = line.replace(quote, '<blockquote>$1</blockquote>');
     line = line.replace(orderedListEl, '<ol><li>$1</li></ol>');
     line = line.replace(unorderedListEl, '<ul><li>$1</li></ul>');
+    line = line.replace(separators, '<hr />');
     line = line.replace(newLine, '<br />');
     
     return line;
