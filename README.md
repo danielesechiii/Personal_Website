@@ -8,7 +8,7 @@ The project is organized into five logical layers:
 
 | Layer | Responsibility |
 |-------|---------------|
-| **Pages** | `profilo.html`, `portfolio.html`, `blog.html`, `article.html` — static templates loaded directly by the browser |
+| **Pages** | `index.html`, `blog.html`, `article.html` — static templates loaded directly by the browser |
 | **Styles** | `main.css` (design tokens, layout, components) + `responsive.css` (media queries) — fully responsive across breakpoints |
 | **Scripts** | Each file handles one concern (preview generation, article rendering, Markdown parsing) |
 | **Data** | JSON manifest (`posts.json`) drives dynamic content; individual posts are stored as `.md` files parsed at runtime |
