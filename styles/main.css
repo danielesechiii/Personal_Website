@@ -34,12 +34,6 @@ body {
 
 /* TESTI */
 
-.name {
-  font-family: var(--font1);
-  font-weight: 700;
-  font-size: 1rem;
-}
-
 .title {
   font-family: var(--font1);
   font-size: 3rem;
@@ -48,7 +42,7 @@ body {
 
 .subtitle {
   font-family: var(--font1);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -61,6 +55,12 @@ p {
 .frame-title {
   font-family: var(--font1);
   font-weight: 650;
+}
+
+/* SKILL TEXT */
+
+.skill {
+  font-size: 0.7rem;
 }
 
 /* BUTTONS */
@@ -88,7 +88,7 @@ p {
 
 address {
   font-family: var(--font1);
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 400;
   color: var(--colore-secondario);
 }
@@ -99,7 +99,7 @@ a {
   color: grey;
 }
 
-/* FRAME E CARD */
+/* FRAME */
 
 .frame {
   border: var(--bordo-frame);
@@ -117,22 +117,11 @@ a {
   padding: 0.3rem;
 }
 
-.card {
-  height: 10rem;
-  width: 20rem;
-  border: var(--bordo-frame);
-  border-radius: 50px;
-  background-color: var(--colore-frame);
-  padding: 1rem;
-  margin: 1rem;
-  box-shadow: var(--shadow);
-}
-
 /* SEPARATORE */
 
 hr {
   height: 0.25rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   background-color: black;
   border-radius: 50px;
 }
@@ -205,10 +194,6 @@ blockquote {
 
 /* LAYOUT HEADER */
 
-.name {
-  margin-bottom: 2rem;
-}
-
 .site-nav {
   display: flex;
   flex-direction: row;
@@ -235,6 +220,16 @@ blockquote {
   margin-bottom: 1rem;
 }
 
+/* LAYOUT SKILLS */
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
 /* LAYOUT CONTATTI */
 
 .contatti {
@@ -253,31 +248,6 @@ blockquote {
   transform: translateX(-50%);
 }
 
-/* LAYOUT PROGETTI */
-
-.progetti {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5rem;
-}
-
-.card{
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-}
-
-/* LAYOUT SKILLS */
-
-.skills {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.2rem;
-}
 
 /* LAYOUT BLOG */
 
