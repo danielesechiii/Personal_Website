@@ -4,5 +4,11 @@
     "date": "15 Settembre 2026",
     "cover": "assets/covers/anno-sabbatico.jpg",
     "content": "data/posts/anno-sabbatico.md"
+  },
+  {
+    "title": "Il mio sito web",
+    "date": "20 Settembre 2026",
+    "cover": "assets/covers/sito-personale.jpg",
+    "content": "data/posts/sito-personale.md"
   }
 ]
